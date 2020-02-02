@@ -1,0 +1,536 @@
+@import url(http://allfont.ru/allfont.css?fonts=ubuntu-bold);
+@import url(http://allfont.ru/allfont.css?fonts=ubuntu-light);
+@import url(http://allfont.ru/allfont.css?fonts=ubuntu-medium);
+@import url(http://allfont.ru/allfont.css?fonts=open-sans);
+@import url(http://allfont.ru/allfont.css?fonts=ubuntu-light-italic);
+
+* {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+
+    a{
+        color: rgb(115,122,133);
+        font-family: 'Open Sans';
+        font-size: bold;
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+li {
+    list-style: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #dee0e1;
+   } 
+/* NAV */
+
+.header .box-nav {
+    display: block;
+    background: rgb(255,255,255);
+     width: 1583px;
+}
+    .header .nav {
+        height: 87px;
+        margin-left: 130px;
+        margin-right: 112px;
+    }
+    .header .nav img {
+        margin-top: 28px;
+    }
+    .header .nav ul {
+        position: relative;
+        float: right;
+        margin-top: 37px;
+        list-style: none;
+    }
+    .header .nav ul li {
+        padding: 0px 0px 10px 10px; /*верх право низ лево*/
+        text-transform: uppercase;
+        margin-right: 33px;
+        float: left;
+    }
+    .header .nav ul li:last-child {
+        margin-right: 0px;
+    }
+
+/* NAV-END */
+/* BANER */
+
+.header .header-baner{
+    width: 1583px;
+    height: 843px;
+    background:url(..//images/baner-bg.jpg) repeat-x;
+}
+
+.header .header-baner .baner {
+    width: 1583px;
+    height: 843px;
+    background:url(..//images/Clouds.png) center center;
+}
+
+.header .header-baner .baner img {
+    float: right;
+    margin-top: 93px;
+    margin-right: 103px;
+}
+
+.header .header-baner .baner .baner-subscription {
+    display: block;
+    position: relative;
+    width: 604px;
+    height: 347px;
+    left: 161px;
+    top: 230px;
+}
+
+.header .header-baner .baner .baner-subscription h1 {
+    font-family: 'Ubuntu Bold', arial;
+    color: rgb(255,255,255);
+    line-height: 71px;
+    font-size: 52px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.header .header-baner .baner .baner-subscription h3 {
+    color: rgb(255,255,255);
+    font-family: 'Ubuntu Light', arial;
+    font-variant: normal;
+    font-size: 24px;
+    margin-top: 43px;
+}
+
+.header .header-baner .baner .baner-subscription p {
+    margin-top: 20px;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    font-family: 'Ubuntu Bold', arial;
+    margin-top: 61px;
+    
+}
+
+.header .header-baner .baner .baner-subscription p em.free {
+   padding: 5px 0px 0px 0px;   /*верх право низ лево*/
+    display: inline-block;
+    position: relative;
+    width: 57px;
+    height: 27px;
+    background: rgb(255,206,84);
+    text-transform: uppercase;
+    font-style: normal;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header .header-baner .baner .baner-subscription .e-mail {
+    position: relative;
+    width: 423px;
+    padding: 17px 0px 15px 28px;      /*верх право низ лево*/
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 31px;
+    margin-top: 32px;
+}
+
+.header .header-baner .baner .baner-subscription input[type="submit"] {
+    width: 113px;
+    padding: 17px 0px 15px 0px;
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Ubuntu Medium', arial;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border-radius: 5px;
+    color: rgb(255,255,255);
+    background: rgb(119,195,68);
+}
+
+.header .header-baner .baner .baner-subscription input[type="button"]:focus {
+    background: rgb(102,166,59);
+        border:0;
+}
+
+/* BANER-END */
+/* COMMUNITY */
+.header .community {
+    display: block;
+    width: 1583px;
+    height: 158px;
+    background: rgb(248,248,248);
+}
+
+.header .community .community-logo {
+    margin-left: 198px;
+}
+
+.header .community .community-logo ul  li {
+    float: left;
+    margin-right: 121px;
+    
+    
+}
+
+.header .community .community-logo ul  li.Evernote {
+    display: block;
+    margin-top: 59px !important;
+}
+
+.header .community .community-logo ul  li.Microsoft {
+     display: block;
+    margin-top: 67px !important;
+}
+
+.header .community .community-logo ul  li.Google {
+     display: block;
+    margin-top: 66px !important;
+}
+
+.header .community .community-logo ul  li.Sony {
+     display: block;
+    margin-top: 75px !important;
+}
+
+.header .community .community-logo ul  li.firefox {
+     display: block;
+    margin-top: 69px !important;
+}
+
+/* COMMUNITY-END */
+/* ARTICLE */
+.header .article {
+    width: 100%;
+    height: 906px;
+}
+
+.header .article .article-content h1.head {
+    color: #4c5767;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 119px; 
+    font-family: 'Ubuntu Medium', arial;
+    text-transform: uppercase;
+}
+
+.header .article .article-content .notebook {
+    display: block;
+    max-width: 100%;
+    float: right;
+    margin-top: 112px;
+}
+p.photo {
+        float: right;
+        width: 50%;
+    }
+
+.header .article .article-content .content {
+    width: 35%;
+    height: 579px;
+    margin-left: 138px;
+    margin-right: 0px;
+    margin-top: 127px;
+}
+
+.header .article .article-content .content h1 {
+    margin-top: 50px;
+    font-size: 22px;
+    line-height: 24px;
+    margin-left: 60px;
+    font-family: 'Ubuntu Medium', arial;
+    color: #4f5765;
+}
+
+.header .article .article-content .content p {
+    font-size: 15px;
+    font-family: arial;
+    line-height: 21px;
+    color: #9499a2;
+}
+
+.header .article .article-content .content .icon {
+    content: url(..//images/cloud2.png);
+    position: absolute;
+    
+}
+
+.header .article .article-content .content .icon2 {
+    content: url(..//images/time.png);
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -20px;
+}
+
+.header .article .article-content .content .icon3 {
+    content: url(..//images/coment.png);
+    position: absolute;
+    margin-top: 43px;
+}
+
+.header .article .article-content .content .icon4 {
+    content: url(..//images/lists.png);
+    position: absolute;
+    margin-top: 33px;
+}
+
+.header .article .article-content .content .h1 {
+    margin-bottom: 28px;
+}
+
+.header .article .article-content .content .h2 {
+    margin-bottom: 24px;
+}
+
+.header .article .article-content .content .h3 {
+    margin-bottom: 25px;
+}
+
+.header .article .article-content .content .h4 {
+    margin-bottom: 24px;
+}
+
+/* ARTICLE-END */
+/* SECTION */
+.header .section {
+    max-width: 100%;
+    height: 732px;
+    background: #f6f6f7;
+    background-image: url(..//images/Ships.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.header .section .h1 {
+    color: #535b69;
+    text-align: center;
+    padding-top: 154px !important;
+    text-transform: uppercase;
+    font-size: 3,9575em;
+    font-family: 'Ubuntu Medium', arial;
+}
+
+.header .section .content {
+    max-width: 50%;
+    height: 180px;
+    margin-left: 139px;
+    margin-top: 155px;
+}
+
+.header .section .content .img {
+    background-image: url(..//images/Ships.png);
+    max-width: 100%;
+}
+
+.header .section .content h1 {
+    color: #535b69;
+    font-size: 28px;
+    font-family: 'Ubuntu Medium', arial;
+    margin-bottom: 28px;
+    margin-left: 87px;
+    
+}
+.header .section .content .icon {
+    position: absolute;
+    content: url(..//images/cloud.png);
+}
+
+.header .section .content p {
+    color: #717781;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    line-height: 30px;
+}
+
+.header .section .item {
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    right: 50%;
+    margin-top: 33px;
+}
+
+.header .section .item .nav li {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    width: 33px;
+}
+
+.header .section .item .nav li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 100%;
+    color: #cbcdd0;
+    transition: all 0.5s ease;
+} 
+
+.header .section .item .nav li .active {
+    background: #64a4d7;
+    color: #fff;
+}
+
+.header .section .item .nav li a:hover {
+    background: #64a4d7;
+    color: #fff;
+}
+
+/* SECTION-END */
+/* SAVE-EMAIL */
+
+.header .save-email {
+    width: 1583px;
+    height: 483px;
+}
+
+.header .save-email h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 147px;
+    color: #5a626e;
+    font-size: 40px;
+    font-family: 'Ubuntu Medium';
+}
+
+.header .save-email p {
+    padding-top: 50px;
+    text-align: center;
+    color: #5a626e;
+    font-size: 24px;
+    font-family: 'Ubuntu Light Italic', arial;
+}
+
+.header .save-email .block-email{
+    position: relative;
+    width: 857px;
+    height: 69px;
+    left: 23%;
+    margin-top: 62px;
+    margin-top: 62px;
+}
+
+.header .save-email fieldset .span {
+    content: url(..//images/e-mail.png);
+    position: absolute;
+    text-align: center;
+    padding-top: 23px;
+    padding-left: 24px;
+    padding-bottom: 22px;
+}
+
+.header .save-email input{
+    display: block;
+    padding-top: 20px;
+    margin-left: 79px;
+    width: 551px;
+    float: right;
+    border: 0;
+    font-size: 21px;
+    font-family: 'Open Sans', arial;
+
+}
+
+.header .save-email .block-email  input[type="submit"] {
+    float: right;
+    width: 190px;
+    height: 68px;
+    padding: 17px 0px 15px 0px;
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Ubuntu Medium', arial;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border-radius: 5px;
+    color: rgb(255,255,255);
+    background: rgb(119,195,68);
+    
+}
+
+.header .save-email .block-email fieldset{
+    border-radius: 3px;
+    border: 1px solid #d1d1d1;
+    width: 632px;
+    height: 70px;
+}
+
+/* SAVE-EMAIL-END */
+/* FOOTER */
+.header .footer {
+    width: 1583px;
+    height: 138px;
+    background: #f9f9f9;
+    border-top: 1px solid #e8e8ea;
+}
+
+.header .footer .footer-content {
+    
+    margin-left: 130px;
+}
+
+.header .footer .footer-content img {
+    position: absolute;
+    padding-top: 55px;
+}
+
+.header .footer .footer-content {
+    width: 1167px;
+}
+
+.header .footer .footer-content ul {
+        position: relative;
+        float: right;
+        margin-top: 49px;
+        list-style: none;
+    }
+    .header .footer .footer-content ul .li {
+        text-transform: uppercase;
+        margin-right: 33px;
+        padding-top: 8px;
+        padding-top: 8px;
+        float: left;
+    }
+    .header .footer .footer-content ul li:last-child {
+         text-transform: uppercase;
+        padding-right: 17px;
+        padding-top: 8px;
+        padding-top: 8px;
+        float: left;
+        border-right: 1px solid #d3d3d3;
+    }
+
+.header .footer .footer-content ul li a {
+    font-size: 14px;
+}
+
+.header .footer noindex {
+    float: right;
+    font-size: 20px;
+    margin-top: 52px;
+    margin-right: 120px;
+}
+
+.header .footer noindex .soc {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header .footer noindex .soc .fa-twitter {
+    color: #4cbcf6;
+}
+.header .footer noindex .soc .fa-facebook {
+    color: #4a6daa;
+}
+.header .footer noindex .soc .fa-google-plus{
+    color: #e74c40;
+}
+.header .footer noindex a {
+    padding: 0 10px 0 10px;
+   
+}
+
+/* FOOTER-END */
